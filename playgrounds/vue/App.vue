@@ -1,19 +1,38 @@
 <template>
-  <div class="app">
-    {{ state }}
+  <div>
+    <template
+      v-for="item in list"
+      :key="item.name"
+    >
+      <div v-if="item.isShow">
+        Name: {{ item.name }}
+      </div>
+      <div v-if="item.isShow">
+        Age: {{ item.age }}
+      </div>
+    </template>
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 
-const state = ref(1)
-
-const changeState = () => {
-  state.value = 2
+interface List {
+  name: string
+  age: number
+  isShow: boolean
 }
 
-onMounted(() => {
-  changeState()
-})
+const list = ref<List[]>([
+  {
+    name: 'Johnson',
+    age: 18,
+    isShow: true
+  },
+  {
+    name: 'Rebeca',
+    age: 16,
+    isShow: false
+  }
+])
 </script>
