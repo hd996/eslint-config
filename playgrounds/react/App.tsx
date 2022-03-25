@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const Component = () => {
-  return <div>Component</div>
+const CustomComponent = () => {
+  return <div>Custom Component</div>
 }
 
 const App = () => {
   return (
     <div>
-      <Component></Component>
+      <CustomComponent></CustomComponent>
     </div>
   )
 }

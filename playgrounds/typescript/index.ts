@@ -10,10 +10,16 @@ interface Data {
   msg?: string
 }
 
-export const changeStatus = (data: Data) => {
-  data.status = Status.Success
+export const Test: Partial<Data> = {
+  msg: 'Test Msg'
 }
 
-export const changeMoudleName = () => {
+export const changeStatus = (data: Data): string => {
+  data.status = Status.Success
+
+  return 'Change Success!'
+}
+
+export const changeMoudleName = (): void => {
   Module.name = 'New Moudle'
 }

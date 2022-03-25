@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+  },
+  "include": ["playgrounds/**/*"]
+}

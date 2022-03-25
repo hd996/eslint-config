@@ -1,3 +1,21 @@
-# eslint-config
+# @hd996/eslint-config
 
-eslint config presets
+> Inspired by @antfu
+
+## Install
+
+```zsh
+pnpm add -D eslint @hd996/eslint-config
+```
+
+## Config `.eslintrc.js`
+
+```javascript
+module.exports = {
+  extends: ['@hd996']
+}
+```
+
+## License
+
+MIT
