@@ -1,0 +1,17 @@
+{
+  "name": "@hd996/eslint-config-typescript",
+  "entries": [
+    {
+      "version": "0.0.2",
+      "tag": "@hd996/eslint-config-typescript_v0.0.2",
+      "date": "Mon, 28 Mar 2022 09:42:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "initial lib"
+          }
+        ]
+      }
+    }
+  ]
+}

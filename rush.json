@@ -459,19 +459,23 @@
     // }
     {
       "packageName": "@hd996/eslint-config",
-      "projectFolder": "packages/all"
+      "projectFolder": "packages/all",
+      "shouldPublish": true
     },
     {
       "packageName": "@hd996/eslint-config-typescript",
-      "projectFolder": "packages/typescript"
+      "projectFolder": "packages/typescript",
+      "shouldPublish": true
     },
     {
       "packageName": "@hd996/eslint-config-vue",
-      "projectFolder": "packages/vue"
+      "projectFolder": "packages/vue",
+      "shouldPublish": true
     },
     {
       "packageName": "@hd996/eslint-config-react",
-      "projectFolder": "packages/react"
+      "projectFolder": "packages/react",
+      "shouldPublish": true
     }
   ]
 }

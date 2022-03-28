@@ -1,6 +1,6 @@
 {
   "name": "@hd996/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typescript eslint config",
   "license": "MIT",
   "main": "index.js",
