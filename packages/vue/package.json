@@ -1,6 +1,6 @@
 {
   "name": "@hd996/eslint-config-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue eslint config",
   "license": "MIT",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@hd996/eslint-config-typescript": "workspace:^0.0.2",
+    "@hd996/eslint-config-typescript": "workspace:^0.0.3",
     "eslint-plugin-vue": "~8.5.0",
     "vue-eslint-parser": "~8.3.0"
   }

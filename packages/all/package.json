@@ -1,6 +1,6 @@
 {
   "name": "@hd996/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint config",
   "license": "MIT",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@hd996/eslint-config-react": "workspace:^0.0.2",
-    "@hd996/eslint-config-vue": "workspace:^0.0.2"
+    "@hd996/eslint-config-react": "workspace:^0.0.3",
+    "@hd996/eslint-config-vue": "workspace:^0.0.3"
   }
 }

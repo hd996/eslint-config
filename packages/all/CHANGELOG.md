@@ -1,6 +1,11 @@
 # Change Log - @hd996/eslint-config
 
-This log was last generated on Mon, 28 Mar 2022 10:26:00 GMT and should not be manually modified.
+This log was last generated on Tue, 29 Mar 2022 03:50:02 GMT and should not be manually modified.
+
+## 0.0.3
+Tue, 29 Mar 2022 03:50:02 GMT
+
+_Version update only_
 
 ## 0.0.2
 Mon, 28 Mar 2022 10:26:00 GMT
