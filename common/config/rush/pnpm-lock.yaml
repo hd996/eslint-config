@@ -6,11 +6,16 @@ importers:
     specifiers: {}
 
   ../../packages/all:
-    specifiers: {}
+    specifiers:
+      '@hd996/eslint-config-react': workspace:^0.0.2
+      '@hd996/eslint-config-vue': workspace:^0.0.2
+    dependencies:
+      '@hd996/eslint-config-react': link:../react
+      '@hd996/eslint-config-vue': link:../vue
 
   ../../packages/react:
     specifiers:
-      '@hd996/eslint-config-typescript': workspace:^0.0.1
+      '@hd996/eslint-config-typescript': workspace:^0.0.2
       eslint-plugin-react: ~7.29.4
     dependencies:
       '@hd996/eslint-config-typescript': link:../typescript
@@ -34,7 +39,7 @@ importers:
 
   ../../packages/vue:
     specifiers:
-      '@hd996/eslint-config-typescript': workspace:^0.0.1
+      '@hd996/eslint-config-typescript': workspace:^0.0.2
       eslint-plugin-vue: ~8.5.0
       vue-eslint-parser: ~8.3.0
     dependencies:
