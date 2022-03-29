@@ -17,7 +17,8 @@ module.exports = {
     '*.yaml',
     '*.yml',
     '*.lock',
-    '__snapshots__'
+    '__snapshots__',
+    '!.*lintrc.js'
   ],
   parser: '@typescript-eslint/parser',
   extends: [
@@ -28,6 +29,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
     'comma-dangle': 'off',
     'no-use-before-define': 'off',
     'space-before-function-paren': ['error', 'never']

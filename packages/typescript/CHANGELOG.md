@@ -1,6 +1,13 @@
 # Change Log - @hd996/eslint-config-typescript
 
-This log was last generated on Tue, 29 Mar 2022 03:50:02 GMT and should not be manually modified.
+This log was last generated on Tue, 29 Mar 2022 09:15:51 GMT and should not be manually modified.
+
+## 0.0.4
+Tue, 29 Mar 2022 09:15:51 GMT
+
+### Patches
+
+- add rule
 
 ## 0.0.3
 Tue, 29 Mar 2022 03:50:02 GMT
