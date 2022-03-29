@@ -17,3 +17,7 @@ export const changeStatus = (data: Data): string => {
 
   return 'Change Success!'
 }
+
+export const Test2 = async() => {
+  await Promise.resolve()
+}

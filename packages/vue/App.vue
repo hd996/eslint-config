@@ -28,6 +28,6 @@ const list = ref<List[]>([
     name: 'Rebeca',
     age: 16,
     isShow: false
-  }
+  },
 ])
 </script>

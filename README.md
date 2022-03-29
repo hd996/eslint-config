@@ -2,6 +2,9 @@
 
 > Inspired by @antfu
 
+- Single quotes, no semi
+- TypeScript, Vue, React out-of-box
+
 ## Install
 
 ```zsh

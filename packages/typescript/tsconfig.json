@@ -5,5 +5,8 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "baseUrl": ".",
+    "lib": [
+      "ES2016",
+    ],
   },
 }
