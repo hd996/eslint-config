@@ -1,6 +1,11 @@
 # Change Log - @hd996/eslint-config-react
 
-This log was last generated on Tue, 29 Mar 2022 09:15:51 GMT and should not be manually modified.
+This log was last generated on Fri, 12 Aug 2022 09:40:49 GMT and should not be manually modified.
+
+## 0.0.5
+Fri, 12 Aug 2022 09:40:49 GMT
+
+_Version update only_
 
 ## 0.0.4
 Tue, 29 Mar 2022 09:15:51 GMT

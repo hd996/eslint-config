@@ -1,6 +1,6 @@
 {
   "name": "@hd996/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react eslint config",
   "license": "MIT",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@hd996/eslint-config-typescript": "workspace:^0.0.4",
+    "@hd996/eslint-config-typescript": "workspace:^0.0.5",
     "eslint-plugin-react": "~7.29.4"
   }
 }

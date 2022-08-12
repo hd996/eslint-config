@@ -22,12 +22,12 @@ const list = ref<List[]>([
   {
     name: 'Hd',
     age: 18,
-    isShow: true
+    isShow: true,
   },
   {
     name: 'Rebeca',
     age: 16,
-    isShow: false
+    isShow: false,
   },
 ])
 </script>

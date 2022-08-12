@@ -7,15 +7,15 @@ importers:
 
   ../../packages/all:
     specifiers:
-      '@hd996/eslint-config-react': workspace:^0.0.3
-      '@hd996/eslint-config-vue': workspace:^0.0.3
+      '@hd996/eslint-config-react': workspace:^0.0.4
+      '@hd996/eslint-config-vue': workspace:^0.0.4
     dependencies:
       '@hd996/eslint-config-react': link:../react
       '@hd996/eslint-config-vue': link:../vue
 
   ../../packages/react:
     specifiers:
-      '@hd996/eslint-config-typescript': workspace:^0.0.3
+      '@hd996/eslint-config-typescript': workspace:^0.0.4
       eslint-plugin-react: ~7.29.4
     dependencies:
       '@hd996/eslint-config-typescript': link:../typescript
@@ -25,21 +25,21 @@ importers:
     specifiers:
       '@typescript-eslint/eslint-plugin': ~5.16.0
       '@typescript-eslint/parser': ~5.16.0
-      eslint-config-standard: ~16.0.3
+      eslint-config-standard: ~17.0.0
       eslint-plugin-import: ~2.25.4
       eslint-plugin-node: ~11.1.0
       eslint-plugin-promise: ~6.0.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.16.0_@typescript-eslint+parser@5.16.0
       '@typescript-eslint/parser': 5.16.0
-      eslint-config-standard: 16.0.3_62afac7c550ff808b6158c3b0a521944
+      eslint-config-standard: 17.0.0_5795bc2e57ea9faaed18537f015f20af
       eslint-plugin-import: 2.25.4
       eslint-plugin-node: 11.1.0
       eslint-plugin-promise: 6.0.0
 
   ../../packages/vue:
     specifiers:
-      '@hd996/eslint-config-typescript': workspace:^0.0.3
+      '@hd996/eslint-config-typescript': workspace:^0.0.4
       eslint-plugin-vue: ~8.5.0
       vue-eslint-parser: ~8.3.0
     dependencies:
@@ -353,16 +353,15 @@ packages:
       is-symbol: 1.0.4
     dev: false
 
-  /eslint-config-standard/16.0.3_62afac7c550ff808b6158c3b0a521944:
-    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
+  /eslint-config-standard/17.0.0_5795bc2e57ea9faaed18537f015f20af:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
-      eslint: ^7.12.1
-      eslint-plugin-import: ^2.22.1
-      eslint-plugin-node: ^11.1.0
-      eslint-plugin-promise: ^4.2.1 || ^5.0.0
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint-plugin-import: 2.25.4
-      eslint-plugin-node: 11.1.0
       eslint-plugin-promise: 6.0.0
     dev: false
 
